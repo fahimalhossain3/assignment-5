@@ -1,0 +1,22 @@
+.meal-card {
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: gray;
+  }
+  
+  .card-body h5 {
+    color: white;
+  }
+  
+  #meal-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  img {
+    width: 300px;
+  }
